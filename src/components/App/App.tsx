@@ -5,6 +5,7 @@ import { Profile } from "../../pages/Profile/Profile";
 import React from "react";
 import ProtectedRoute from "../protectedRouters/protectedUnLogged";
 
+
 export const App = () => {
   return (
     <div className={styles.mainBox}>
@@ -13,6 +14,7 @@ export const App = () => {
         <ProtectedRoute exact path="/profile">
           <Profile />
         </ProtectedRoute>
+        <Route path='' render={() => (<h1>ops! error 404!</h1>)} />
       </Switch>
     </div>
   );
