@@ -40,7 +40,7 @@ export const MainPage = () => {
               onChange={(e) => setEnteredPassword(e.target.value)}
             />
           </div>
-          <button disabled={disabled}>Вход</button>
+          <button disabled={disabled}>Войти</button>
         </form>
       </div>
     </div>
