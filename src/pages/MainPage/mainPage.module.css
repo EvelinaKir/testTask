@@ -1,0 +1,53 @@
+.mainBox {
+  display: grid;
+  justify-self: center;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.inputs {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.enter form {
+  display: grid;
+  justify-items: center;
+}
+
+.enter form button {
+  background-color: rgb(34, 45, 139);
+  border: none;
+  color: #ffffff;
+  padding: 13px 54px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.enter form button:disabled {
+  background-color: rgb(49, 49, 49);
+  border: none;
+  color: #ffffff;
+  padding: 13px 54px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.inputs input {
+  background: black;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.795);
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.inputs input, select, textarea {
+    color: white;
+    outline: none;
+}
+.inputs input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.781);
+}
